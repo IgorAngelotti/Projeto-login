@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* typical device breakpoints
+Pequenas telas: até 600px
+Celular: 600px até 768px
+Tablet: 768 px até 992 px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+
+paleta de cores
+    verde: #49a09d
+    lilás: #5f2c82
+
+*/
+
+@media screen and (min-width: 992px) {
+    main{
+        background-image: linear-gradient(#5f2c82,#49a09d );
+    }
+    
+    section#login{
+    width: 800px;
+    height: 400px;
+    column-count: 2;
+    column-gap: 0px;
+    
+   } 
+
+   section#login > #imagem{
+    column-span: 1;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+
+    
+   }
+   section#login > #formulario{
+
+}
+}
