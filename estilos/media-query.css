@@ -18,13 +18,27 @@ paleta de cores
         background-image: linear-gradient(#5f2c82,#49a09d );
     }
     
+
     section#login{
     width: 800px;
     height: 400px;
     column-count: 2;
     column-gap: 0px;
-    
+    transition-duration: 0.25s;
+    font-size: 1em;
    } 
+
+   section#login h1{
+    box-shadow: 1px 1px 3px rgba(134, 134, 134, 0.37);
+    background-color: #2ce2dc;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    border-radius: 3px 3px;
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 2px;
+    margin-bottom: 10px;
+   }
 
    section#login > #imagem{
     column-span: 1;
