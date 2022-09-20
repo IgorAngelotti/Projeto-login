@@ -16,6 +16,7 @@ paleta de cores
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(#5f2c82,#49a09d);
+        background-attachment: fixed;
     }
 
     section#login{
@@ -51,6 +52,7 @@ paleta de cores
 @media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(#5f2c82,#49a09d);
+        background-attachment: fixed;
     }
     
     section#login{
