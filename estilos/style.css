@@ -29,11 +29,7 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    transition: width 0.25s, height 0.25s;
-    transition-timing-function: ease;
-    
-
+   
     background-color: white;
     border-radius: 20px;
     width: 270px;
@@ -41,6 +37,10 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     font-size: 0.9em;
+
+    transform: translate(-50%, -50%);
+    transition: width 0.25s, height 0.25s;
+    transition-timing-function: ease;
 }
 
 section#login > #imagem{
@@ -89,11 +89,11 @@ form .campo > input{
     background-color: #56bbb8;
     font-size: 1em;
     width: calc(100% - 45px);
-    height: 100%;
-    transform: translateY(-10px);
+    height: 100%; 
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-10px);
 }
 
 form > input[type=submit] {
