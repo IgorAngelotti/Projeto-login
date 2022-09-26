@@ -59,6 +59,38 @@ paleta de cores
     width: 950px;
     height: 500px;
     font-size: 1em;
+    float: left;
+   } 
+
+   section#login > #imagem{
+    height: 100%;
+    width: 50%;
+    float: right;
+    
+   }
+   section#login > #formulario{
+    width: 50%;
+}
+
+#formulario > h1{
+    font-size: 2em;
+
+}
+
+#formulario > p{
+    font-size: 1.2em;
+}
+
+
+}
+
+/*
+    ANTIGA TELA DIVISÓRIA
+    
+    section#login{
+    width: 950px;
+    height: 500px;
+    font-size: 1em;
     display: flex;
    } 
 
@@ -69,8 +101,15 @@ paleta de cores
    }
    section#login > #formulario{
     width: 50%;
-}
-}
+
+
+
+*/
+
+
+
+
+
 
 
 
