@@ -15,12 +15,12 @@ paleta de cores
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
-        background-image: linear-gradient(#5f2c82,#49a09d);
-        background-attachment: fixed;
+        background-image: linear-gradient(#5f2c82,#49a09d); 
     }
 
     section#login{
         width: 80vw;
+        height: 290px;
         font-size: 1em;
     }
 
@@ -46,18 +46,21 @@ paleta de cores
         float: right;
         width: 70%;
     }
+
+    form .campo > input{
+        transform: translateY(-14px);
+    }
 }
 
 
 @media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(#5f2c82,#49a09d);
-        background-attachment: fixed;
     }
     
     section#login{
     width: 950px;
-    height: 500px;
+    height: 340px;
     font-size: 1em;
     float: left;
    } 
@@ -78,9 +81,13 @@ paleta de cores
 }
 
 #formulario > p{
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 20px 0px;
 }
 
+form .campo > input{
+    transform: translateY(-14px);
+}
 
 }
 
